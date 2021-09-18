@@ -1,0 +1,40 @@
+.main-header {
+    /*display: flex;*/
+    padding: 0.5em 0.75em 0.5em 0.75em;
+    margin-top: 0.18em;
+    margin-bottom: 0.75em;
+    background-color: #dad6d6;
+    border-radius: 10px;
+    height: 150px;
+    position: relative;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    /*background-color: #bbb;*/
+    border-radius: 50%;
+    display: inline-block;
+    border:solid 1px #8c8cb0;
+
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom:-20%;
+    margin-top: -50px;
+}
+
+.avatar-main-header{
+    width:inherit;
+    border-radius: inherit;
+    position: relative;
+}
+
+.change-avatar{
+    position: absolute;
+    left:50%;
+    margin-left: -8px;
+    bottom:-15%;
+    margin-top: -35px;
+    cursor: pointer;
+}
